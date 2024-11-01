@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon 3&4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <center> 
+    <div>
+    <form id="formcv">
+        <h1>Personal Info</h1>
+       <hr>
+       <label for="name">Name</label>
+       <input type="text" id="name" required>
+       <label for="email">Email</label>
+       <input type="email" id="email" required>
+       <label for="ph">Phone Number</label>
+       <input type="tel" id="ph" required>
+       <label for="add">Address</label>
+       <input type="text" id="add" required>
+       
+        <h1>Education</h1>
+        <hr>
+        <textarea id="education" rows="6" required></textarea>
+        
+        <h1>Experience</h1>
+        <hr>
+        <textarea id="experience" rows="6" required></textarea>
+        
+        <h1>Skills</h1>
+        <hr>
+        <textarea id="skills" rows="6" required></textarea><br>
+        
+        <b><button type="submit">Generate CV</button></b>
+    </form>
+</div>
+<br>
+<div id="displayr"></div>
+<button id="update" style="display: none;" onclick="updatefrom()">update</button>
+   </center>
+    <script src="script.js"></script>
+</body>
+</html>

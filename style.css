@@ -1,0 +1,46 @@
+
+body{
+    background-image: url(img.jpg);
+}
+div{
+    width: 70%;
+    margin: 0px 15%;
+    border: 2px solid black;
+    height: 100%;
+    
+}
+input{
+    flex-wrap: wrap;
+    display:block;
+    width: 95%;
+    margin: 5px;
+    
+
+}
+h1{
+    background-color: black;
+    margin-left: 5px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    justify-content: center;
+    color: white;
+}
+samp{
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-size: large;
+}
+textarea{
+    font-size: large;
+    width: 95%;
+    margin: 5px;
+}
+hr{
+    border-bottom:2px solid black ;
+}
+button{
+    text-transform: capitalize;
+    width: 150px;
+    margin: 10px;
+
+}
